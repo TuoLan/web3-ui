@@ -1,0 +1,28 @@
+{
+  "name": "web3-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.8.5",
+    "ethers": "^6.13.4",
+    "sass": "^1.80.2",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5",
+    "web3": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
